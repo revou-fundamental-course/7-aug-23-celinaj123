@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    text-align: center;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+
+.option button{
+    border: none;
+    margin: 0px 20px;
+    padding : 10px;
+}
+
+.option button a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+ .active{
+    background-color: #96B6C5;
+}
+
+#keliling, #luas{
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+
+h3{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    padding: 35px 20px;
+    background-color: #96B6C5;
+}
+
+.rumus{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+img{
+    display: flex;
+    margin: auto;
+}
+
+.deskripsi{
+    padding: 0px 40px;
+}
+
+.deskripsi p{
+    margin:10px 0px;
+}
+
+.hitungarea{
+    padding: 0px 40px;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 15px 20px;
+}
+
+.inputcol{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ input{
+    font-size: 20px;
+    margin:  10px;
+    width: 100%;
+    padding: 8px 5px;
+}
+
+.showcalculate p{
+    margin:10px 0px;
+}
+
+.hitungarea button{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.blue{
+    background-color : #1B6B93;
+}
+
+.red{
+    background-color: #F6635C;
+}
+
+footer{
+    margin-top : 50px;
+    padding:5px;
+    background-color: gray;
+    font-size: 14px;
+    text-align: center;
+}

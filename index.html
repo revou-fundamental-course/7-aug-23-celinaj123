@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Katik</h1>
+        <p>Hai Sobat, Selamat datang di Katik :]</p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+    </div>
+
+    <div class="option">
+        <button class="active"><a href="#keliling">Keliling Segitiga</a></button>
+        <button><a href="#luas">Luas Segitiga</a></button>
+    </div>
+
+    <section id="keliling">
+        <h3>Keliling Segitiga</h3>
+        <img src="segitiga.png" alt="" width="300px" height="300px">
+        <div class="deskripsi">
+            <p>Rumus Keliling Segitiga yaitu :</p>
+            <p class="rumus">K = S1 + S2 + S3</p>
+            <p>Dimana : </p>
+            <p>K = Keliling</p>
+            <p>S1 = Sisi A</p>
+            <p>S2 = Sisi B</p>
+            <p>S3 = sisi C</p>
+        </div>
+
+        <div class="hitungarea">
+            <h2>Hitung Keliling Segitiga</h2>
+            <div class="inputcol">
+                <input type="number" class="display" id="s1">
+                <input type="number" class="display" id="s2">
+                <input type="number" class="display" id="s3">
+            </div>
+            <div class="showcalculate">
+                <p id="step"></p>
+                <p id="steps"></p>
+                <p id="displayarea"> </p>
+            </div>
+    
+            <button onclick="hitungkeliling()" class=" blue">Hitung</button>
+            <button onclick="resetkel()" class=" red">Reset</button>
+        </div>
+    
+    </section>
+
+    
+    <section id="luas">
+        <h3>Luas Segitiga</h3>
+        <img src="segitiga.png" alt="" width="300px" height="300px">
+        <div class="deskripsi">
+            <p>Rumus Luas Segitiga yaitu :</p>
+            <p class="rumus">L = 1/2 * a * t</p>
+            <p>Dimana : </p>
+            <p>L = Luas</p>
+            <p>a = alas segitiga</p>
+            <p>t = tinggi segitiga</p>
+        </div>
+
+        <div class="hitungarea">
+            <div class="inputcol">
+                <input type="number" class="display" id="a">
+                <input type="number" class="display" id="t">
+            </div>
+            <div class="showcalculate">
+                <p id="step2"></p>
+                <p id="steps2"></p>
+                <p id="displayluas"> </p>
+            </div>
+    
+            <button onclick="hitungluas()" class=" blue">Hitung</button>
+            <button onclick="resetluas()" class=" red">Reset</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+<footer>
+    &copy; 2023 Celina Josephine. All rights reserved.</footer>
+
+</html>
